@@ -129,6 +129,11 @@ public class PlayerContoroller : MonoBehaviour
             splFollower.followSpeed = 0;
             anim.SetTrigger("Dance");
         }
+        if (collision.transform.CompareTag("Enemy"))
+        {
+            splFollower.followSpeed = 0;
+            anim.SetTrigger("Dead");
+        }
     }
 }
 
