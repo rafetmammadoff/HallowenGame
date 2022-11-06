@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Amazing Assets/Curved World/Example Scenes/Bend.unity
+    guid: d6361e5dec1e880499a4ba6bc1f06378
   m_configObjects: {}

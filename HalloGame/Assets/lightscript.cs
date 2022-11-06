@@ -19,7 +19,7 @@ public class lightscript : MonoBehaviour
     void Update()
     {
         time = Random.Range(0.1f, 0.5f);
-        intensity = Random.Range(0, 60);
+        intensity = Random.Range(0, 10);
         isik.intensity = intensity;
         if (isActive)
         {

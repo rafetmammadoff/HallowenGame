@@ -9,6 +9,8 @@ TagManager:
   - Sag
   - Ground
   - Enemy
+  - JumpPoint
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Coin
+  - Pumpkin
   - 
   - 
   - 
