@@ -8,7 +8,6 @@ public class lightscript : MonoBehaviour
    [SerializeField] Light isik;
     float time;
   public bool isActive=true;
-    [SerializeField]Material material;
     float intensity;
     void Start()
     {
@@ -19,7 +18,7 @@ public class lightscript : MonoBehaviour
     void Update()
     {
         time = Random.Range(0.1f, 0.5f);
-        intensity = Random.Range(0, 10);
+        intensity = Random.Range(0, 5);
         isik.intensity = intensity;
         if (isActive)
         {
